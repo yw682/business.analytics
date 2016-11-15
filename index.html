@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Business Analytics Assignment 8 : Amazon Fine Food Review">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Business Analytics Assignment 8</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/yw682/business.analytics">View on GitHub</a>
+
+          <h1 id="project_title">Business Analytics Assignment 8</h1>
+          <h2 id="project_tagline">Amazon Fine Food Review</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/yw682/business.analytics/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/yw682/business.analytics/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="businessanalytics" class="anchor" href="#businessanalytics" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>business.analytics</h1>
+
+<hr>
+
+<p>In this assignment, I have run an LDA topic model analysis on Amazon fine food review. The dataset is available at: <a href="https://github.com/yw682/business.analytics/blob/master/Reviews.csv">https://github.com/yw682/business.analytics/blob/master/Reviews.csv</a>. This dataset is found on Kaggle (<a href="https://www.kaggle.com/snap/amazon-fine-food-reviews">https://www.kaggle.com/snap/amazon-fine-food-reviews</a>). </p>
+
+<p>The topic model result of the top 10 relevant topic is shown as below:
+<img src="https://github.com/yw682/business.analytics/blob/master/AmazonProductReview%20code.R" alt="">
+The full result is available at: <a href="http://127.0.0.1:4321/#topic=0&amp;lambda=0.5&amp;term=">http://127.0.0.1:4321/#topic=0&amp;lambda=0.5&amp;term=</a></p>
+
+<p>Analysis:
+We can see that Topic 1,2,3,7, and 10 are closely related. Especially, topic 10 is completely inside of Topic 1. The words in Topic 1 are pretty general, which includes Amazon, fresh, store, buying, and etc. At the same time, other topics have more specific description and nouns. Topic 10 is more about bakery, Topic 2 and 3 are more about ingredients and making dishes. Topic 4,6,8 are more related, while topic 5 and topic 9 are isolated.
+Base on the frequency of words showing up, and the grouping of the topics, we can see that products relating to bakery, cooking ingredients, and coffee are more popular than others. Some people also like to review the product with the usage of the product, such as how to cook with it.</p>
+
+<p>Data Processing
+Please view the R code is available at: <a href="https://github.com/yw682/business.analytics/blob/master/AmazonProductReview%20code.R">https://github.com/yw682/business.analytics/blob/master/AmazonProductReview%20code.R</a></p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Business Analytics Assignment 8 maintained by <a href="https://github.com/yw682">yw682</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
